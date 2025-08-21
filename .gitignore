@@ -1,0 +1,175 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+.python-version
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.nox/
+htmlcov/
+dist/
+build/
+develop-eggs/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.core
+*.orig
+*.rej
+.*.swo
+.*.swp
+*~
+*.bak
+*.log
+.DS_Store
+
+# ========================
+# Poetry
+# ========================
+# We DO NOT ignore poetry.lock by default
+# BUT if you want to generate it on deployment, uncomment the next line:
+# poetry.lock
+
+# ========================
+# IDEs and Editors
+# ========================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list/
+tramp
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# Jupyter
+# ========================
+.ipynb_checkpoints
+*.ipynb
+
+# ========================
+# Logs and Databases
+# ========================
+*.log
+*.sqlite
+*.sqlite3
+db.sqlite3
+logs/
+logs_*/
+*.log.json
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# ========================
+# OS Generated
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================
+# LangChain / ML / AI
+# ========================
+# Vector DBs (if stored locally)
+chroma_db/
+faiss_index/
+qdrant_storage/        # Only if you're running Qdrant locally in dev
+local_qdrant/
+
+# Model caches
+.cache/
+model_cache/
+vectorstore/
+
+# Temporary files
+temp/
+tmp/
+
+# ========================
+# Artifacts
+# ========================
+artifacts/
+outputs/
+predictions/
+
+# ========================
+# FastAPI / Server
+# ========================
+# Local server files
+server.log
+*.pem
+*.key
+*.crt
+
+# ========================
+# Docker
+# ========================
+# If you plan to containerize later
+Dockerfile.local
+docker-compose.override.yml
+.dockerignore
+
+# ========================
+# Coverage and Testing
+# ========================
+.coverage
+htmlcov/
+.coverage.*
+.cache
+.pytest_cache
+.nyc_output
